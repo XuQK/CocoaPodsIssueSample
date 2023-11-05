@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B727FEA94FE658F4A5DC5FD /* Pods_MediationIOSPluginsSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1769F390998C22257EB6CA /* Pods_MediationIOSPluginsSampleTests.framework */; };
+		6BC0E3BC96039C0B95A36808 /* Pods_MediationIOSPluginsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EB38CC6ED69F9F8448CE00 /* Pods_MediationIOSPluginsSample.framework */; };
+		968BC9292AF7AA23001E1BD2 /* MediationIOSPluginsSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BC9282AF7AA23001E1BD2 /* MediationIOSPluginsSampleApp.swift */; };
+		968BC92B2AF7AA23001E1BD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BC92A2AF7AA23001E1BD2 /* ContentView.swift */; };
+		968BC92D2AF7AA24001E1BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968BC92C2AF7AA24001E1BD2 /* Assets.xcassets */; };
+		968BC9302AF7AA24001E1BD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968BC92F2AF7AA24001E1BD2 /* Preview Assets.xcassets */; };
+		968BC93A2AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BC9392AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.swift */; };
+		968BC9442AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BC9432AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.swift */; };
+		968BC9462AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BC9452AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITestsLaunchTests.swift */; };
+		BB0E0CA07FFB76526CCBFE9F /* Pods_MediationIOSPluginsSample_MediationIOSPluginsSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1214E06602710AD8198DA88 /* Pods_MediationIOSPluginsSample_MediationIOSPluginsSampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		968BC9362AF7AA24001E1BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968BC91D2AF7AA23001E1BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968BC9242AF7AA23001E1BD2;
+			remoteInfo = MediationIOSPluginsSample;
+		};
+		968BC9402AF7AA24001E1BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968BC91D2AF7AA23001E1BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968BC9242AF7AA23001E1BD2;
+			remoteInfo = MediationIOSPluginsSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4121D778924B90DEAD54D202 /* Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests/Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76EB38CC6ED69F9F8448CE00 /* Pods_MediationIOSPluginsSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediationIOSPluginsSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E2D77C8D6AE392A9671BC2 /* Pods-MediationIOSPluginsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationIOSPluginsSample.debug.xcconfig"; path = "Target Support Files/Pods-MediationIOSPluginsSample/Pods-MediationIOSPluginsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		841D4558E2422CBF987BB859 /* Pods-MediationIOSPluginsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationIOSPluginsSample.release.xcconfig"; path = "Target Support Files/Pods-MediationIOSPluginsSample/Pods-MediationIOSPluginsSample.release.xcconfig"; sourceTree = "<group>"; };
+		968BC9252AF7AA23001E1BD2 /* MediationIOSPluginsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediationIOSPluginsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BC9282AF7AA23001E1BD2 /* MediationIOSPluginsSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationIOSPluginsSampleApp.swift; sourceTree = "<group>"; };
+		968BC92A2AF7AA23001E1BD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		968BC92C2AF7AA24001E1BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		968BC92F2AF7AA24001E1BD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		968BC9352AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediationIOSPluginsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BC9392AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationIOSPluginsSampleTests.swift; sourceTree = "<group>"; };
+		968BC93F2AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediationIOSPluginsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BC9432AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationIOSPluginsSampleUITests.swift; sourceTree = "<group>"; };
+		968BC9452AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationIOSPluginsSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F1769F390998C22257EB6CA /* Pods_MediationIOSPluginsSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediationIOSPluginsSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37BCFCE27F0BCF5AD9C8C94 /* Pods-MediationIOSPluginsSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationIOSPluginsSampleTests.release.xcconfig"; path = "Target Support Files/Pods-MediationIOSPluginsSampleTests/Pods-MediationIOSPluginsSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDE186B754C273CAF136838E /* Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests/Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1214E06602710AD8198DA88 /* Pods_MediationIOSPluginsSample_MediationIOSPluginsSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediationIOSPluginsSample_MediationIOSPluginsSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0F9AEC263164860F8AE1B1 /* Pods-MediationIOSPluginsSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationIOSPluginsSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MediationIOSPluginsSampleTests/Pods-MediationIOSPluginsSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		968BC9222AF7AA23001E1BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0E3BC96039C0B95A36808 /* Pods_MediationIOSPluginsSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BC9322AF7AA24001E1BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B727FEA94FE658F4A5DC5FD /* Pods_MediationIOSPluginsSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BC93C2AF7AA24001E1BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0E0CA07FFB76526CCBFE9F /* Pods_MediationIOSPluginsSample_MediationIOSPluginsSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B21444151FBE0B91FDD84B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80E2D77C8D6AE392A9671BC2 /* Pods-MediationIOSPluginsSample.debug.xcconfig */,
+				841D4558E2422CBF987BB859 /* Pods-MediationIOSPluginsSample.release.xcconfig */,
+				CDE186B754C273CAF136838E /* Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.debug.xcconfig */,
+				4121D778924B90DEAD54D202 /* Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.release.xcconfig */,
+				FA0F9AEC263164860F8AE1B1 /* Pods-MediationIOSPluginsSampleTests.debug.xcconfig */,
+				B37BCFCE27F0BCF5AD9C8C94 /* Pods-MediationIOSPluginsSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		47BD613F3418F55CC47B3671 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76EB38CC6ED69F9F8448CE00 /* Pods_MediationIOSPluginsSample.framework */,
+				E1214E06602710AD8198DA88 /* Pods_MediationIOSPluginsSample_MediationIOSPluginsSampleUITests.framework */,
+				9F1769F390998C22257EB6CA /* Pods_MediationIOSPluginsSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968BC91C2AF7AA23001E1BD2 = {
+			isa = PBXGroup;
+			children = (
+				968BC9272AF7AA23001E1BD2 /* MediationIOSPluginsSample */,
+				968BC9382AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests */,
+				968BC9422AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests */,
+				968BC9262AF7AA23001E1BD2 /* Products */,
+				46B21444151FBE0B91FDD84B /* Pods */,
+				47BD613F3418F55CC47B3671 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		968BC9262AF7AA23001E1BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968BC9252AF7AA23001E1BD2 /* MediationIOSPluginsSample.app */,
+				968BC9352AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.xctest */,
+				968BC93F2AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		968BC9272AF7AA23001E1BD2 /* MediationIOSPluginsSample */ = {
+			isa = PBXGroup;
+			children = (
+				968BC9282AF7AA23001E1BD2 /* MediationIOSPluginsSampleApp.swift */,
+				968BC92A2AF7AA23001E1BD2 /* ContentView.swift */,
+				968BC92C2AF7AA24001E1BD2 /* Assets.xcassets */,
+				968BC92E2AF7AA24001E1BD2 /* Preview Content */,
+			);
+			path = MediationIOSPluginsSample;
+			sourceTree = "<group>";
+		};
+		968BC92E2AF7AA24001E1BD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				968BC92F2AF7AA24001E1BD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		968BC9382AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				968BC9392AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.swift */,
+			);
+			path = MediationIOSPluginsSampleTests;
+			sourceTree = "<group>";
+		};
+		968BC9422AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				968BC9432AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.swift */,
+				968BC9452AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITestsLaunchTests.swift */,
+			);
+			path = MediationIOSPluginsSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		968BC9242AF7AA23001E1BD2 /* MediationIOSPluginsSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968BC9492AF7AA24001E1BD2 /* Build configuration list for PBXNativeTarget "MediationIOSPluginsSample" */;
+			buildPhases = (
+				6021F6095DDA4CFF2A5C9B55 /* [CP] Check Pods Manifest.lock */,
+				968BC9212AF7AA23001E1BD2 /* Sources */,
+				968BC9222AF7AA23001E1BD2 /* Frameworks */,
+				968BC9232AF7AA23001E1BD2 /* Resources */,
+				1403A2AC436ACFCFE4FBFFD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediationIOSPluginsSample;
+			productName = MediationIOSPluginsSample;
+			productReference = 968BC9252AF7AA23001E1BD2 /* MediationIOSPluginsSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		968BC9342AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968BC94C2AF7AA24001E1BD2 /* Build configuration list for PBXNativeTarget "MediationIOSPluginsSampleTests" */;
+			buildPhases = (
+				90C980B39DC95E2343DE8DEB /* [CP] Check Pods Manifest.lock */,
+				968BC9312AF7AA24001E1BD2 /* Sources */,
+				968BC9322AF7AA24001E1BD2 /* Frameworks */,
+				968BC9332AF7AA24001E1BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968BC9372AF7AA24001E1BD2 /* PBXTargetDependency */,
+			);
+			name = MediationIOSPluginsSampleTests;
+			productName = MediationIOSPluginsSampleTests;
+			productReference = 968BC9352AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		968BC93E2AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968BC94F2AF7AA24001E1BD2 /* Build configuration list for PBXNativeTarget "MediationIOSPluginsSampleUITests" */;
+			buildPhases = (
+				BFB50F8A6D25F352C0102C39 /* [CP] Check Pods Manifest.lock */,
+				968BC93B2AF7AA24001E1BD2 /* Sources */,
+				968BC93C2AF7AA24001E1BD2 /* Frameworks */,
+				968BC93D2AF7AA24001E1BD2 /* Resources */,
+				BB6C7893B6ECC40C47BE682E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968BC9412AF7AA24001E1BD2 /* PBXTargetDependency */,
+			);
+			name = MediationIOSPluginsSampleUITests;
+			productName = MediationIOSPluginsSampleUITests;
+			productReference = 968BC93F2AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968BC91D2AF7AA23001E1BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					968BC9242AF7AA23001E1BD2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					968BC9342AF7AA24001E1BD2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 968BC9242AF7AA23001E1BD2;
+					};
+					968BC93E2AF7AA24001E1BD2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 968BC9242AF7AA23001E1BD2;
+					};
+				};
+			};
+			buildConfigurationList = 968BC9202AF7AA23001E1BD2 /* Build configuration list for PBXProject "MediationIOSPluginsSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 968BC91C2AF7AA23001E1BD2;
+			productRefGroup = 968BC9262AF7AA23001E1BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968BC9242AF7AA23001E1BD2 /* MediationIOSPluginsSample */,
+				968BC9342AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests */,
+				968BC93E2AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968BC9232AF7AA23001E1BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BC9302AF7AA24001E1BD2 /* Preview Assets.xcassets in Resources */,
+				968BC92D2AF7AA24001E1BD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BC9332AF7AA24001E1BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BC93D2AF7AA24001E1BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1403A2AC436ACFCFE4FBFFD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MediationIOSPluginsSample/Pods-MediationIOSPluginsSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6021F6095DDA4CFF2A5C9B55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediationIOSPluginsSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C980B39DC95E2343DE8DEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediationIOSPluginsSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB6C7893B6ECC40C47BE682E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests/Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB50F8A6D25F352C0102C39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968BC9212AF7AA23001E1BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BC92B2AF7AA23001E1BD2 /* ContentView.swift in Sources */,
+				968BC9292AF7AA23001E1BD2 /* MediationIOSPluginsSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BC9312AF7AA24001E1BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BC93A2AF7AA24001E1BD2 /* MediationIOSPluginsSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BC93B2AF7AA24001E1BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BC9462AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITestsLaunchTests.swift in Sources */,
+				968BC9442AF7AA24001E1BD2 /* MediationIOSPluginsSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		968BC9372AF7AA24001E1BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968BC9242AF7AA23001E1BD2 /* MediationIOSPluginsSample */;
+			targetProxy = 968BC9362AF7AA24001E1BD2 /* PBXContainerItemProxy */;
+		};
+		968BC9412AF7AA24001E1BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968BC9242AF7AA23001E1BD2 /* MediationIOSPluginsSample */;
+			targetProxy = 968BC9402AF7AA24001E1BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		968BC9472AF7AA24001E1BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		968BC9482AF7AA24001E1BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		968BC94A2AF7AA24001E1BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E2D77C8D6AE392A9671BC2 /* Pods-MediationIOSPluginsSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediationIOSPluginsSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MG9PB36ZV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.MediationIOSPluginsSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		968BC94B2AF7AA24001E1BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841D4558E2422CBF987BB859 /* Pods-MediationIOSPluginsSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediationIOSPluginsSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MG9PB36ZV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.MediationIOSPluginsSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		968BC94D2AF7AA24001E1BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0F9AEC263164860F8AE1B1 /* Pods-MediationIOSPluginsSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG9PB36ZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.MediationIOSPluginsSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediationIOSPluginsSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediationIOSPluginsSample";
+			};
+			name = Debug;
+		};
+		968BC94E2AF7AA24001E1BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37BCFCE27F0BCF5AD9C8C94 /* Pods-MediationIOSPluginsSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG9PB36ZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.MediationIOSPluginsSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediationIOSPluginsSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediationIOSPluginsSample";
+			};
+			name = Release;
+		};
+		968BC9502AF7AA24001E1BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE186B754C273CAF136838E /* Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG9PB36ZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.MediationIOSPluginsSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediationIOSPluginsSample;
+			};
+			name = Debug;
+		};
+		968BC9512AF7AA24001E1BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4121D778924B90DEAD54D202 /* Pods-MediationIOSPluginsSample-MediationIOSPluginsSampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MG9PB36ZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.MediationIOSPluginsSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediationIOSPluginsSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		968BC9202AF7AA23001E1BD2 /* Build configuration list for PBXProject "MediationIOSPluginsSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BC9472AF7AA24001E1BD2 /* Debug */,
+				968BC9482AF7AA24001E1BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968BC9492AF7AA24001E1BD2 /* Build configuration list for PBXNativeTarget "MediationIOSPluginsSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BC94A2AF7AA24001E1BD2 /* Debug */,
+				968BC94B2AF7AA24001E1BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968BC94C2AF7AA24001E1BD2 /* Build configuration list for PBXNativeTarget "MediationIOSPluginsSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BC94D2AF7AA24001E1BD2 /* Debug */,
+				968BC94E2AF7AA24001E1BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968BC94F2AF7AA24001E1BD2 /* Build configuration list for PBXNativeTarget "MediationIOSPluginsSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BC9502AF7AA24001E1BD2 /* Debug */,
+				968BC9512AF7AA24001E1BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 968BC91D2AF7AA23001E1BD2 /* Project object */;
+}
