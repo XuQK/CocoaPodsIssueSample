@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:UMPCore/UMPCore.xcodeproj">
+      location = "group:UMPApplovin/UMPApplovin.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:UMPTest/UMPTest.xcodeproj">
+      location = "group:UMPCore/UMPCore.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MediationIOSPluginsSample/MediationIOSPluginsSample.xcodeproj">

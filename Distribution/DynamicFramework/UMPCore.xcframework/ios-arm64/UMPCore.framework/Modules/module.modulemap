@@ -1,0 +1,11 @@
+framework module UMPCore {
+  umbrella header "UMPCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module UMPCore.Swift {
+  header "UMPCore-Swift.h"
+  requires objc
+}

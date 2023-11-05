@@ -1,14 +1,14 @@
 //
-//  UMPTestTests.swift
-//  UMPTestTests
+//  UMPApplovinTests.swift
+//  UMPApplovinTests
 //
 //  Created by amber on 2023/11/5.
 //
 
 import XCTest
-@testable import UMPTest
+@testable import UMPApplovin
 
-final class UMPTestTests: XCTestCase {
+final class UMPApplovinTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,0 +1,20 @@
+{
+  "name": "UMPCore",
+  "version": "0.1.1-alpha.2",
+  "displayName": "UMPCore",
+  "documentationUrl": "",
+  "keywords": [
+    "iOS",
+    "MediationPlugin",
+    "UMPCore"
+  ],
+  "author": {
+    "name": "XuQK",
+    "url": "http://一会再说"
+  },
+  "description": "Unity Mediation iOS Plugin For Applovin",
+  "unity": "2020.3",
+  "publishConfig": {
+    "registry": "http://august.amberweather.com:8081/nexus/content/repositories/unity-internal/"
+  }
+}

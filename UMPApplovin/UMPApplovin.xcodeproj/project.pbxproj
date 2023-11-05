@@ -7,171 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		968BC9612AF7AA38001E1BD2 /* UMPTest.docc in Sources */ = {isa = PBXBuildFile; fileRef = 968BC9602AF7AA38001E1BD2 /* UMPTest.docc */; };
-		968BC9672AF7AA38001E1BD2 /* UMPTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968BC95C2AF7AA38001E1BD2 /* UMPTest.framework */; };
-		968BC96C2AF7AA38001E1BD2 /* UMPTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BC96B2AF7AA38001E1BD2 /* UMPTestTests.swift */; };
-		968BC96D2AF7AA38001E1BD2 /* UMPTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 968BC95F2AF7AA38001E1BD2 /* UMPTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		968BC97A2AF7B020001E1BD2 /* TestInteropWithCpp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BC9772AF7B020001E1BD2 /* TestInteropWithCpp.swift */; };
-		968BC97B2AF7B020001E1BD2 /* TestInteropWithCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 968BC9782AF7B020001E1BD2 /* TestInteropWithCpp.cpp */; };
-		968BC97C2AF7B020001E1BD2 /* TestInteropWithCpp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 968BC9792AF7B020001E1BD2 /* TestInteropWithCpp.hpp */; };
+		968BCB742AF7C853001E1BD2 /* UMPApplovin.docc in Sources */ = {isa = PBXBuildFile; fileRef = 968BCB732AF7C853001E1BD2 /* UMPApplovin.docc */; };
+		968BCB7A2AF7C853001E1BD2 /* UMPApplovin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968BCB6F2AF7C853001E1BD2 /* UMPApplovin.framework */; };
+		968BCB7F2AF7C853001E1BD2 /* UMPApplovinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCB7E2AF7C853001E1BD2 /* UMPApplovinTests.swift */; };
+		968BCB802AF7C853001E1BD2 /* UMPApplovin.h in Headers */ = {isa = PBXBuildFile; fileRef = 968BCB722AF7C853001E1BD2 /* UMPApplovin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		968BC9682AF7AA38001E1BD2 /* PBXContainerItemProxy */ = {
+		968BCB7B2AF7C853001E1BD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 968BC9532AF7AA38001E1BD2 /* Project object */;
+			containerPortal = 968BCB662AF7C853001E1BD2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 968BC95B2AF7AA38001E1BD2;
-			remoteInfo = UMPTest;
+			remoteGlobalIDString = 968BCB6E2AF7C853001E1BD2;
+			remoteInfo = UMPApplovin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		968BC95C2AF7AA38001E1BD2 /* UMPTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMPTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		968BC95F2AF7AA38001E1BD2 /* UMPTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMPTest.h; sourceTree = "<group>"; };
-		968BC9602AF7AA38001E1BD2 /* UMPTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = UMPTest.docc; sourceTree = "<group>"; };
-		968BC9662AF7AA38001E1BD2 /* UMPTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMPTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		968BC96B2AF7AA38001E1BD2 /* UMPTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMPTestTests.swift; sourceTree = "<group>"; };
-		968BC9772AF7B020001E1BD2 /* TestInteropWithCpp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestInteropWithCpp.swift; sourceTree = "<group>"; };
-		968BC9782AF7B020001E1BD2 /* TestInteropWithCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestInteropWithCpp.cpp; sourceTree = "<group>"; };
-		968BC9792AF7B020001E1BD2 /* TestInteropWithCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestInteropWithCpp.hpp; sourceTree = "<group>"; };
+		968BCB6F2AF7C853001E1BD2 /* UMPApplovin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMPApplovin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BCB722AF7C853001E1BD2 /* UMPApplovin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMPApplovin.h; sourceTree = "<group>"; };
+		968BCB732AF7C853001E1BD2 /* UMPApplovin.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = UMPApplovin.docc; sourceTree = "<group>"; };
+		968BCB792AF7C853001E1BD2 /* UMPApplovinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMPApplovinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BCB7E2AF7C853001E1BD2 /* UMPApplovinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMPApplovinTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		968BC9592AF7AA38001E1BD2 /* Frameworks */ = {
+		968BCB6C2AF7C853001E1BD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		968BC9632AF7AA38001E1BD2 /* Frameworks */ = {
+		968BCB762AF7C853001E1BD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968BC9672AF7AA38001E1BD2 /* UMPTest.framework in Frameworks */,
+				968BCB7A2AF7C853001E1BD2 /* UMPApplovin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		968BC9522AF7AA38001E1BD2 = {
+		968BCB652AF7C853001E1BD2 = {
 			isa = PBXGroup;
 			children = (
-				968BC95E2AF7AA38001E1BD2 /* UMPTest */,
-				968BC96A2AF7AA38001E1BD2 /* UMPTestTests */,
-				968BC95D2AF7AA38001E1BD2 /* Products */,
+				968BCB712AF7C853001E1BD2 /* UMPApplovin */,
+				968BCB7D2AF7C853001E1BD2 /* UMPApplovinTests */,
+				968BCB702AF7C853001E1BD2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		968BC95D2AF7AA38001E1BD2 /* Products */ = {
+		968BCB702AF7C853001E1BD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				968BC95C2AF7AA38001E1BD2 /* UMPTest.framework */,
-				968BC9662AF7AA38001E1BD2 /* UMPTestTests.xctest */,
+				968BCB6F2AF7C853001E1BD2 /* UMPApplovin.framework */,
+				968BCB792AF7C853001E1BD2 /* UMPApplovinTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		968BC95E2AF7AA38001E1BD2 /* UMPTest */ = {
+		968BCB712AF7C853001E1BD2 /* UMPApplovin */ = {
 			isa = PBXGroup;
 			children = (
-				968BC9762AF7B020001E1BD2 /* InteropWithCpp */,
-				968BC95F2AF7AA38001E1BD2 /* UMPTest.h */,
-				968BC9602AF7AA38001E1BD2 /* UMPTest.docc */,
+				968BCB722AF7C853001E1BD2 /* UMPApplovin.h */,
+				968BCB732AF7C853001E1BD2 /* UMPApplovin.docc */,
 			);
-			path = UMPTest;
+			path = UMPApplovin;
 			sourceTree = "<group>";
 		};
-		968BC96A2AF7AA38001E1BD2 /* UMPTestTests */ = {
+		968BCB7D2AF7C853001E1BD2 /* UMPApplovinTests */ = {
 			isa = PBXGroup;
 			children = (
-				968BC96B2AF7AA38001E1BD2 /* UMPTestTests.swift */,
+				968BCB7E2AF7C853001E1BD2 /* UMPApplovinTests.swift */,
 			);
-			path = UMPTestTests;
-			sourceTree = "<group>";
-		};
-		968BC9762AF7B020001E1BD2 /* InteropWithCpp */ = {
-			isa = PBXGroup;
-			children = (
-				968BC9772AF7B020001E1BD2 /* TestInteropWithCpp.swift */,
-				968BC9782AF7B020001E1BD2 /* TestInteropWithCpp.cpp */,
-				968BC9792AF7B020001E1BD2 /* TestInteropWithCpp.hpp */,
-			);
-			path = InteropWithCpp;
+			path = UMPApplovinTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		968BC9572AF7AA38001E1BD2 /* Headers */ = {
+		968BCB6A2AF7C853001E1BD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968BC97C2AF7B020001E1BD2 /* TestInteropWithCpp.hpp in Headers */,
-				968BC96D2AF7AA38001E1BD2 /* UMPTest.h in Headers */,
+				968BCB802AF7C853001E1BD2 /* UMPApplovin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		968BC95B2AF7AA38001E1BD2 /* UMPTest */ = {
+		968BCB6E2AF7C853001E1BD2 /* UMPApplovin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 968BC9702AF7AA38001E1BD2 /* Build configuration list for PBXNativeTarget "UMPTest" */;
+			buildConfigurationList = 968BCB832AF7C853001E1BD2 /* Build configuration list for PBXNativeTarget "UMPApplovin" */;
 			buildPhases = (
-				968BC9572AF7AA38001E1BD2 /* Headers */,
-				968BC9582AF7AA38001E1BD2 /* Sources */,
-				968BC9592AF7AA38001E1BD2 /* Frameworks */,
-				968BC95A2AF7AA38001E1BD2 /* Resources */,
+				968BCB6A2AF7C853001E1BD2 /* Headers */,
+				968BCB6B2AF7C853001E1BD2 /* Sources */,
+				968BCB6C2AF7C853001E1BD2 /* Frameworks */,
+				968BCB6D2AF7C853001E1BD2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UMPTest;
-			productName = UMPTest;
-			productReference = 968BC95C2AF7AA38001E1BD2 /* UMPTest.framework */;
+			name = UMPApplovin;
+			productName = UMPApplovin;
+			productReference = 968BCB6F2AF7C853001E1BD2 /* UMPApplovin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		968BC9652AF7AA38001E1BD2 /* UMPTestTests */ = {
+		968BCB782AF7C853001E1BD2 /* UMPApplovinTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 968BC9732AF7AA38001E1BD2 /* Build configuration list for PBXNativeTarget "UMPTestTests" */;
+			buildConfigurationList = 968BCB862AF7C853001E1BD2 /* Build configuration list for PBXNativeTarget "UMPApplovinTests" */;
 			buildPhases = (
-				968BC9622AF7AA38001E1BD2 /* Sources */,
-				968BC9632AF7AA38001E1BD2 /* Frameworks */,
-				968BC9642AF7AA38001E1BD2 /* Resources */,
+				968BCB752AF7C853001E1BD2 /* Sources */,
+				968BCB762AF7C853001E1BD2 /* Frameworks */,
+				968BCB772AF7C853001E1BD2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				968BC9692AF7AA38001E1BD2 /* PBXTargetDependency */,
+				968BCB7C2AF7C853001E1BD2 /* PBXTargetDependency */,
 			);
-			name = UMPTestTests;
-			productName = UMPTestTests;
-			productReference = 968BC9662AF7AA38001E1BD2 /* UMPTestTests.xctest */;
+			name = UMPApplovinTests;
+			productName = UMPApplovinTests;
+			productReference = 968BCB792AF7C853001E1BD2 /* UMPApplovinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		968BC9532AF7AA38001E1BD2 /* Project object */ = {
+		968BCB662AF7C853001E1BD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					968BC95B2AF7AA38001E1BD2 = {
+					968BCB6E2AF7C853001E1BD2 = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					968BC9652AF7AA38001E1BD2 = {
+					968BCB782AF7C853001E1BD2 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 968BC9562AF7AA38001E1BD2 /* Build configuration list for PBXProject "UMPTest" */;
+			buildConfigurationList = 968BCB692AF7C853001E1BD2 /* Build configuration list for PBXProject "UMPApplovin" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,26 +161,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 968BC9522AF7AA38001E1BD2;
-			productRefGroup = 968BC95D2AF7AA38001E1BD2 /* Products */;
+			mainGroup = 968BCB652AF7C853001E1BD2;
+			productRefGroup = 968BCB702AF7C853001E1BD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				968BC95B2AF7AA38001E1BD2 /* UMPTest */,
-				968BC9652AF7AA38001E1BD2 /* UMPTestTests */,
+				968BCB6E2AF7C853001E1BD2 /* UMPApplovin */,
+				968BCB782AF7C853001E1BD2 /* UMPApplovinTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		968BC95A2AF7AA38001E1BD2 /* Resources */ = {
+		968BCB6D2AF7C853001E1BD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		968BC9642AF7AA38001E1BD2 /* Resources */ = {
+		968BCB772AF7C853001E1BD2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,36 +190,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		968BC9582AF7AA38001E1BD2 /* Sources */ = {
+		968BCB6B2AF7C853001E1BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968BC9612AF7AA38001E1BD2 /* UMPTest.docc in Sources */,
-				968BC97B2AF7B020001E1BD2 /* TestInteropWithCpp.cpp in Sources */,
-				968BC97A2AF7B020001E1BD2 /* TestInteropWithCpp.swift in Sources */,
+				968BCB742AF7C853001E1BD2 /* UMPApplovin.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		968BC9622AF7AA38001E1BD2 /* Sources */ = {
+		968BCB752AF7C853001E1BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968BC96C2AF7AA38001E1BD2 /* UMPTestTests.swift in Sources */,
+				968BCB7F2AF7C853001E1BD2 /* UMPApplovinTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		968BC9692AF7AA38001E1BD2 /* PBXTargetDependency */ = {
+		968BCB7C2AF7C853001E1BD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 968BC95B2AF7AA38001E1BD2 /* UMPTest */;
-			targetProxy = 968BC9682AF7AA38001E1BD2 /* PBXContainerItemProxy */;
+			target = 968BCB6E2AF7C853001E1BD2 /* UMPApplovin */;
+			targetProxy = 968BCB7B2AF7C853001E1BD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		968BC96E2AF7AA38001E1BD2 /* Debug */ = {
+		968BCB812AF7C853001E1BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		968BC96F2AF7AA38001E1BD2 /* Release */ = {
+		968BCB822AF7C853001E1BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +346,7 @@
 			};
 			name = Release;
 		};
-		968BC9712AF7AA38001E1BD2 /* Debug */ = {
+		968BCB842AF7C853001E1BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -388,7 +368,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPApplovin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -397,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		968BC9722AF7AA38001E1BD2 /* Release */ = {
+		968BCB852AF7C853001E1BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -419,7 +399,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPApplovin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -428,16 +408,15 @@
 			};
 			name = Release;
 		};
-		968BC9742AF7AA38001E1BD2 /* Debug */ = {
+		968BCB872AF7C853001E1BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9MG9PB36ZV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPApplovinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -445,16 +424,15 @@
 			};
 			name = Debug;
 		};
-		968BC9752AF7AA38001E1BD2 /* Release */ = {
+		968BCB882AF7C853001E1BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9MG9PB36ZV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.ads.UMPApplovinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -465,34 +443,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		968BC9562AF7AA38001E1BD2 /* Build configuration list for PBXProject "UMPTest" */ = {
+		968BCB692AF7C853001E1BD2 /* Build configuration list for PBXProject "UMPApplovin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				968BC96E2AF7AA38001E1BD2 /* Debug */,
-				968BC96F2AF7AA38001E1BD2 /* Release */,
+				968BCB812AF7C853001E1BD2 /* Debug */,
+				968BCB822AF7C853001E1BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		968BC9702AF7AA38001E1BD2 /* Build configuration list for PBXNativeTarget "UMPTest" */ = {
+		968BCB832AF7C853001E1BD2 /* Build configuration list for PBXNativeTarget "UMPApplovin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				968BC9712AF7AA38001E1BD2 /* Debug */,
-				968BC9722AF7AA38001E1BD2 /* Release */,
+				968BCB842AF7C853001E1BD2 /* Debug */,
+				968BCB852AF7C853001E1BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		968BC9732AF7AA38001E1BD2 /* Build configuration list for PBXNativeTarget "UMPTestTests" */ = {
+		968BCB862AF7C853001E1BD2 /* Build configuration list for PBXNativeTarget "UMPApplovinTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				968BC9742AF7AA38001E1BD2 /* Debug */,
-				968BC9752AF7AA38001E1BD2 /* Release */,
+				968BCB872AF7C853001E1BD2 /* Debug */,
+				968BCB882AF7C853001E1BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 968BC9532AF7AA38001E1BD2 /* Project object */;
+	rootObject = 968BCB662AF7C853001E1BD2 /* Project object */;
 }

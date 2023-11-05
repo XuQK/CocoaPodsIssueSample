@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9687967A2AF7DE2300E5C654 /* IUnityInterstitialCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687965E2AF7DE2300E5C654 /* IUnityInterstitialCallback.swift */; };
+		9687967B2AF7DE2300E5C654 /* IUnityRewardCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687965F2AF7DE2300E5C654 /* IUnityRewardCallback.swift */; };
+		9687967C2AF7DE2300E5C654 /* IUnityCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796602AF7DE2300E5C654 /* IUnityCallback.swift */; };
+		9687967D2AF7DE2300E5C654 /* IUnityFullscreenCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796612AF7DE2300E5C654 /* IUnityFullscreenCallback.swift */; };
+		9687967E2AF7DE2300E5C654 /* IUnityBannerCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796622AF7DE2300E5C654 /* IUnityBannerCallback.swift */; };
+		9687967F2AF7DE2300E5C654 /* UnityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796632AF7DE2300E5C654 /* UnityHandler.swift */; };
+		968796802AF7DE2300E5C654 /* BaseFullscreenClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796652AF7DE2300E5C654 /* BaseFullscreenClient.swift */; };
+		968796812AF7DE2300E5C654 /* BaseAdClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796662AF7DE2300E5C654 /* BaseAdClient.swift */; };
+		968796822AF7DE2300E5C654 /* IAdClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796672AF7DE2300E5C654 /* IAdClient.swift */; };
+		968796832AF7DE2300E5C654 /* BaseBannerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796682AF7DE2300E5C654 /* BaseBannerClient.swift */; };
+		968796842AF7DE2300E5C654 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796692AF7DE2300E5C654 /* Handler.swift */; };
+		968796852AF7DE2300E5C654 /* IPlatformClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687966B2AF7DE2300E5C654 /* IPlatformClient.swift */; };
+		968796862AF7DE2300E5C654 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687966C2AF7DE2300E5C654 /* PluginManager.swift */; };
+		968796872AF7DE2300E5C654 /* ErrorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687966E2AF7DE2300E5C654 /* ErrorClient.swift */; };
+		968796882AF7DE2300E5C654 /* AdPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796702AF7DE2300E5C654 /* AdPosition.swift */; };
+		968796892AF7DE2300E5C654 /* AdFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796712AF7DE2300E5C654 /* AdFormat.swift */; };
+		9687968A2AF7DE2300E5C654 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796722AF7DE2300E5C654 /* Reward.swift */; };
+		9687968B2AF7DE2300E5C654 /* IJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796732AF7DE2300E5C654 /* IJson.swift */; };
+		9687968C2AF7DE2300E5C654 /* IMediationAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796742AF7DE2300E5C654 /* IMediationAd.swift */; };
+		9687968D2AF7DE2300E5C654 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796752AF7DE2300E5C654 /* Platform.swift */; };
+		9687968E2AF7DE2300E5C654 /* AdValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796762AF7DE2300E5C654 /* AdValue.swift */; };
+		9687968F2AF7DE2300E5C654 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796782AF7DE2300E5C654 /* Logger.swift */; };
+		968796902AF7DE2300E5C654 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968796792AF7DE2300E5C654 /* Extensions.swift */; };
 		968BCA8A2AF7C43A001E1BD2 /* UMPCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = 968BCA892AF7C43A001E1BD2 /* UMPCore.docc */; };
 		968BCA902AF7C43A001E1BD2 /* UMPCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968BCA852AF7C43A001E1BD2 /* UMPCore.framework */; };
 		968BCA952AF7C43A001E1BD2 /* UMPCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCA942AF7C43A001E1BD2 /* UMPCoreTests.swift */; };
 		968BCA962AF7C43A001E1BD2 /* UMPCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 968BCA882AF7C43A001E1BD2 /* UMPCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		968BCAC82AF7C455001E1BD2 /* IPlatformClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAA12AF7C455001E1BD2 /* IPlatformClient.swift */; };
-		968BCAC92AF7C455001E1BD2 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAA22AF7C455001E1BD2 /* PluginManager.swift */; };
 		968BCACA2AF7C455001E1BD2 /* Bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 968BCAA42AF7C455001E1BD2 /* Bridge.h */; };
 		968BCACB2AF7C455001E1BD2 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 968BCAA62AF7C455001E1BD2 /* Utils.h */; };
 		968BCACC2AF7C455001E1BD2 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAA72AF7C455001E1BD2 /* Utils.m */; };
@@ -21,27 +42,6 @@
 		968BCACF2AF7C455001E1BD2 /* CppBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAAB2AF7C455001E1BD2 /* CppBridge.swift */; };
 		968BCAD02AF7C455001E1BD2 /* CBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAAC2AF7C455001E1BD2 /* CBridge.cpp */; };
 		968BCAD12AF7C455001E1BD2 /* TransformedAdCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAAD2AF7C455001E1BD2 /* TransformedAdCallback.swift */; };
-		968BCAD22AF7C455001E1BD2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAAF2AF7C455001E1BD2 /* Logger.swift */; };
-		968BCAD32AF7C455001E1BD2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB02AF7C455001E1BD2 /* Extensions.swift */; };
-		968BCAD42AF7C455001E1BD2 /* ErrorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB22AF7C455001E1BD2 /* ErrorClient.swift */; };
-		968BCAD52AF7C455001E1BD2 /* AdPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB42AF7C455001E1BD2 /* AdPosition.swift */; };
-		968BCAD62AF7C455001E1BD2 /* AdFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB52AF7C455001E1BD2 /* AdFormat.swift */; };
-		968BCAD72AF7C455001E1BD2 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB62AF7C455001E1BD2 /* Reward.swift */; };
-		968BCAD82AF7C455001E1BD2 /* IJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB72AF7C455001E1BD2 /* IJson.swift */; };
-		968BCAD92AF7C455001E1BD2 /* IMediationAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB82AF7C455001E1BD2 /* IMediationAd.swift */; };
-		968BCADA2AF7C455001E1BD2 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAB92AF7C455001E1BD2 /* Platform.swift */; };
-		968BCADB2AF7C455001E1BD2 /* AdValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCABA2AF7C455001E1BD2 /* AdValue.swift */; };
-		968BCADC2AF7C455001E1BD2 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCABB2AF7C455001E1BD2 /* Handler.swift */; };
-		968BCADD2AF7C455001E1BD2 /* IUnityInterstitialCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCABD2AF7C455001E1BD2 /* IUnityInterstitialCallback.swift */; };
-		968BCADE2AF7C455001E1BD2 /* IUnityRewardCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCABE2AF7C455001E1BD2 /* IUnityRewardCallback.swift */; };
-		968BCADF2AF7C455001E1BD2 /* IUnityCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCABF2AF7C455001E1BD2 /* IUnityCallback.swift */; };
-		968BCAE02AF7C455001E1BD2 /* IUnityFullscreenCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAC02AF7C455001E1BD2 /* IUnityFullscreenCallback.swift */; };
-		968BCAE12AF7C455001E1BD2 /* IUnityBannerCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAC12AF7C455001E1BD2 /* IUnityBannerCallback.swift */; };
-		968BCAE22AF7C455001E1BD2 /* UnityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAC22AF7C455001E1BD2 /* UnityHandler.swift */; };
-		968BCAE32AF7C455001E1BD2 /* BaseFullscreenClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAC42AF7C455001E1BD2 /* BaseFullscreenClient.swift */; };
-		968BCAE42AF7C455001E1BD2 /* BaseAdClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAC52AF7C455001E1BD2 /* BaseAdClient.swift */; };
-		968BCAE52AF7C455001E1BD2 /* IAdClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAC62AF7C455001E1BD2 /* IAdClient.swift */; };
-		968BCAE62AF7C455001E1BD2 /* BaseBannerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BCAC72AF7C455001E1BD2 /* BaseBannerClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +55,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9687965E2AF7DE2300E5C654 /* IUnityInterstitialCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityInterstitialCallback.swift; sourceTree = "<group>"; };
+		9687965F2AF7DE2300E5C654 /* IUnityRewardCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityRewardCallback.swift; sourceTree = "<group>"; };
+		968796602AF7DE2300E5C654 /* IUnityCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityCallback.swift; sourceTree = "<group>"; };
+		968796612AF7DE2300E5C654 /* IUnityFullscreenCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityFullscreenCallback.swift; sourceTree = "<group>"; };
+		968796622AF7DE2300E5C654 /* IUnityBannerCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityBannerCallback.swift; sourceTree = "<group>"; };
+		968796632AF7DE2300E5C654 /* UnityHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityHandler.swift; sourceTree = "<group>"; };
+		968796652AF7DE2300E5C654 /* BaseFullscreenClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFullscreenClient.swift; sourceTree = "<group>"; };
+		968796662AF7DE2300E5C654 /* BaseAdClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAdClient.swift; sourceTree = "<group>"; };
+		968796672AF7DE2300E5C654 /* IAdClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAdClient.swift; sourceTree = "<group>"; };
+		968796682AF7DE2300E5C654 /* BaseBannerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBannerClient.swift; sourceTree = "<group>"; };
+		968796692AF7DE2300E5C654 /* Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		9687966B2AF7DE2300E5C654 /* IPlatformClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPlatformClient.swift; sourceTree = "<group>"; };
+		9687966C2AF7DE2300E5C654 /* PluginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
+		9687966E2AF7DE2300E5C654 /* ErrorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorClient.swift; sourceTree = "<group>"; };
+		968796702AF7DE2300E5C654 /* AdPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdPosition.swift; sourceTree = "<group>"; };
+		968796712AF7DE2300E5C654 /* AdFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdFormat.swift; sourceTree = "<group>"; };
+		968796722AF7DE2300E5C654 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		968796732AF7DE2300E5C654 /* IJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJson.swift; sourceTree = "<group>"; };
+		968796742AF7DE2300E5C654 /* IMediationAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMediationAd.swift; sourceTree = "<group>"; };
+		968796752AF7DE2300E5C654 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		968796762AF7DE2300E5C654 /* AdValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdValue.swift; sourceTree = "<group>"; };
+		968796782AF7DE2300E5C654 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		968796792AF7DE2300E5C654 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		968BCA852AF7C43A001E1BD2 /* UMPCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMPCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		968BCA882AF7C43A001E1BD2 /* UMPCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMPCore.h; sourceTree = "<group>"; };
 		968BCA892AF7C43A001E1BD2 /* UMPCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = UMPCore.docc; sourceTree = "<group>"; };
 		968BCA8F2AF7C43A001E1BD2 /* UMPCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMPCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		968BCA942AF7C43A001E1BD2 /* UMPCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMPCoreTests.swift; sourceTree = "<group>"; };
-		968BCAA12AF7C455001E1BD2 /* IPlatformClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPlatformClient.swift; sourceTree = "<group>"; };
-		968BCAA22AF7C455001E1BD2 /* PluginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
 		968BCAA42AF7C455001E1BD2 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		968BCAA62AF7C455001E1BD2 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		968BCAA72AF7C455001E1BD2 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
@@ -70,27 +91,6 @@
 		968BCAAB2AF7C455001E1BD2 /* CppBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CppBridge.swift; sourceTree = "<group>"; };
 		968BCAAC2AF7C455001E1BD2 /* CBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBridge.cpp; sourceTree = "<group>"; };
 		968BCAAD2AF7C455001E1BD2 /* TransformedAdCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformedAdCallback.swift; sourceTree = "<group>"; };
-		968BCAAF2AF7C455001E1BD2 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		968BCAB02AF7C455001E1BD2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		968BCAB22AF7C455001E1BD2 /* ErrorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorClient.swift; sourceTree = "<group>"; };
-		968BCAB42AF7C455001E1BD2 /* AdPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdPosition.swift; sourceTree = "<group>"; };
-		968BCAB52AF7C455001E1BD2 /* AdFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdFormat.swift; sourceTree = "<group>"; };
-		968BCAB62AF7C455001E1BD2 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
-		968BCAB72AF7C455001E1BD2 /* IJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJson.swift; sourceTree = "<group>"; };
-		968BCAB82AF7C455001E1BD2 /* IMediationAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMediationAd.swift; sourceTree = "<group>"; };
-		968BCAB92AF7C455001E1BD2 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
-		968BCABA2AF7C455001E1BD2 /* AdValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdValue.swift; sourceTree = "<group>"; };
-		968BCABB2AF7C455001E1BD2 /* Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
-		968BCABD2AF7C455001E1BD2 /* IUnityInterstitialCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityInterstitialCallback.swift; sourceTree = "<group>"; };
-		968BCABE2AF7C455001E1BD2 /* IUnityRewardCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityRewardCallback.swift; sourceTree = "<group>"; };
-		968BCABF2AF7C455001E1BD2 /* IUnityCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityCallback.swift; sourceTree = "<group>"; };
-		968BCAC02AF7C455001E1BD2 /* IUnityFullscreenCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityFullscreenCallback.swift; sourceTree = "<group>"; };
-		968BCAC12AF7C455001E1BD2 /* IUnityBannerCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUnityBannerCallback.swift; sourceTree = "<group>"; };
-		968BCAC22AF7C455001E1BD2 /* UnityHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityHandler.swift; sourceTree = "<group>"; };
-		968BCAC42AF7C455001E1BD2 /* BaseFullscreenClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFullscreenClient.swift; sourceTree = "<group>"; };
-		968BCAC52AF7C455001E1BD2 /* BaseAdClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAdClient.swift; sourceTree = "<group>"; };
-		968BCAC62AF7C455001E1BD2 /* IAdClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAdClient.swift; sourceTree = "<group>"; };
-		968BCAC72AF7C455001E1BD2 /* BaseBannerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBannerClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +112,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9687965D2AF7DE2300E5C654 /* Callback */ = {
+			isa = PBXGroup;
+			children = (
+				9687965E2AF7DE2300E5C654 /* IUnityInterstitialCallback.swift */,
+				9687965F2AF7DE2300E5C654 /* IUnityRewardCallback.swift */,
+				968796602AF7DE2300E5C654 /* IUnityCallback.swift */,
+				968796612AF7DE2300E5C654 /* IUnityFullscreenCallback.swift */,
+				968796622AF7DE2300E5C654 /* IUnityBannerCallback.swift */,
+				968796632AF7DE2300E5C654 /* UnityHandler.swift */,
+			);
+			path = Callback;
+			sourceTree = "<group>";
+		};
+		968796642AF7DE2300E5C654 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				968796652AF7DE2300E5C654 /* BaseFullscreenClient.swift */,
+				968796662AF7DE2300E5C654 /* BaseAdClient.swift */,
+				968796672AF7DE2300E5C654 /* IAdClient.swift */,
+				968796682AF7DE2300E5C654 /* BaseBannerClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		9687966A2AF7DE2300E5C654 /* Initialize */ = {
+			isa = PBXGroup;
+			children = (
+				9687966B2AF7DE2300E5C654 /* IPlatformClient.swift */,
+				9687966C2AF7DE2300E5C654 /* PluginManager.swift */,
+			);
+			path = Initialize;
+			sourceTree = "<group>";
+		};
+		9687966D2AF7DE2300E5C654 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9687966E2AF7DE2300E5C654 /* ErrorClient.swift */,
+				9687966F2AF7DE2300E5C654 /* Enums */,
+				968796722AF7DE2300E5C654 /* Reward.swift */,
+				968796732AF7DE2300E5C654 /* IJson.swift */,
+				968796742AF7DE2300E5C654 /* IMediationAd.swift */,
+				968796752AF7DE2300E5C654 /* Platform.swift */,
+				968796762AF7DE2300E5C654 /* AdValue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9687966F2AF7DE2300E5C654 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				968796702AF7DE2300E5C654 /* AdPosition.swift */,
+				968796712AF7DE2300E5C654 /* AdFormat.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		968796772AF7DE2300E5C654 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				968796782AF7DE2300E5C654 /* Logger.swift */,
+				968796792AF7DE2300E5C654 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		968BCA7B2AF7C43A001E1BD2 = {
 			isa = PBXGroup;
 			children = (
@@ -151,24 +216,15 @@
 		968BCA9F2AF7C455001E1BD2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				968BCAA02AF7C455001E1BD2 /* Initialize */,
+				9687965D2AF7DE2300E5C654 /* Callback */,
+				968796642AF7DE2300E5C654 /* Client */,
+				968796692AF7DE2300E5C654 /* Handler.swift */,
+				9687966A2AF7DE2300E5C654 /* Initialize */,
+				9687966D2AF7DE2300E5C654 /* Models */,
+				968796772AF7DE2300E5C654 /* Utils */,
 				968BCAA32AF7C455001E1BD2 /* Bridge */,
-				968BCAAE2AF7C455001E1BD2 /* Utils */,
-				968BCAB12AF7C455001E1BD2 /* Models */,
-				968BCABB2AF7C455001E1BD2 /* Handler.swift */,
-				968BCABC2AF7C455001E1BD2 /* Callback */,
-				968BCAC32AF7C455001E1BD2 /* Client */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		968BCAA02AF7C455001E1BD2 /* Initialize */ = {
-			isa = PBXGroup;
-			children = (
-				968BCAA12AF7C455001E1BD2 /* IPlatformClient.swift */,
-				968BCAA22AF7C455001E1BD2 /* PluginManager.swift */,
-			);
-			path = Initialize;
 			sourceTree = "<group>";
 		};
 		968BCAA32AF7C455001E1BD2 /* Bridge */ = {
@@ -200,62 +256,6 @@
 				968BCAAC2AF7C455001E1BD2 /* CBridge.cpp */,
 			);
 			path = CPP;
-			sourceTree = "<group>";
-		};
-		968BCAAE2AF7C455001E1BD2 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				968BCAAF2AF7C455001E1BD2 /* Logger.swift */,
-				968BCAB02AF7C455001E1BD2 /* Extensions.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		968BCAB12AF7C455001E1BD2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				968BCAB22AF7C455001E1BD2 /* ErrorClient.swift */,
-				968BCAB32AF7C455001E1BD2 /* Enums */,
-				968BCAB62AF7C455001E1BD2 /* Reward.swift */,
-				968BCAB72AF7C455001E1BD2 /* IJson.swift */,
-				968BCAB82AF7C455001E1BD2 /* IMediationAd.swift */,
-				968BCAB92AF7C455001E1BD2 /* Platform.swift */,
-				968BCABA2AF7C455001E1BD2 /* AdValue.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		968BCAB32AF7C455001E1BD2 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				968BCAB42AF7C455001E1BD2 /* AdPosition.swift */,
-				968BCAB52AF7C455001E1BD2 /* AdFormat.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		968BCABC2AF7C455001E1BD2 /* Callback */ = {
-			isa = PBXGroup;
-			children = (
-				968BCABD2AF7C455001E1BD2 /* IUnityInterstitialCallback.swift */,
-				968BCABE2AF7C455001E1BD2 /* IUnityRewardCallback.swift */,
-				968BCABF2AF7C455001E1BD2 /* IUnityCallback.swift */,
-				968BCAC02AF7C455001E1BD2 /* IUnityFullscreenCallback.swift */,
-				968BCAC12AF7C455001E1BD2 /* IUnityBannerCallback.swift */,
-				968BCAC22AF7C455001E1BD2 /* UnityHandler.swift */,
-			);
-			path = Callback;
-			sourceTree = "<group>";
-		};
-		968BCAC32AF7C455001E1BD2 /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				968BCAC42AF7C455001E1BD2 /* BaseFullscreenClient.swift */,
-				968BCAC52AF7C455001E1BD2 /* BaseAdClient.swift */,
-				968BCAC62AF7C455001E1BD2 /* IAdClient.swift */,
-				968BCAC72AF7C455001E1BD2 /* BaseBannerClient.swift */,
-			);
-			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,35 +369,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968BCADA2AF7C455001E1BD2 /* Platform.swift in Sources */,
-				968BCAE62AF7C455001E1BD2 /* BaseBannerClient.swift in Sources */,
-				968BCAD92AF7C455001E1BD2 /* IMediationAd.swift in Sources */,
+				968796802AF7DE2300E5C654 /* BaseFullscreenClient.swift in Sources */,
+				968796882AF7DE2300E5C654 /* AdPosition.swift in Sources */,
+				968796892AF7DE2300E5C654 /* AdFormat.swift in Sources */,
 				968BCA8A2AF7C43A001E1BD2 /* UMPCore.docc in Sources */,
-				968BCAE02AF7C455001E1BD2 /* IUnityFullscreenCallback.swift in Sources */,
-				968BCAC82AF7C455001E1BD2 /* IPlatformClient.swift in Sources */,
-				968BCADB2AF7C455001E1BD2 /* AdValue.swift in Sources */,
+				9687968A2AF7DE2300E5C654 /* Reward.swift in Sources */,
+				9687968F2AF7DE2300E5C654 /* Logger.swift in Sources */,
+				968796812AF7DE2300E5C654 /* BaseAdClient.swift in Sources */,
 				968BCACE2AF7C455001E1BD2 /* OCBridge.swift in Sources */,
+				9687967E2AF7DE2300E5C654 /* IUnityBannerCallback.swift in Sources */,
+				9687968B2AF7DE2300E5C654 /* IJson.swift in Sources */,
+				9687968D2AF7DE2300E5C654 /* Platform.swift in Sources */,
+				9687968C2AF7DE2300E5C654 /* IMediationAd.swift in Sources */,
 				968BCACF2AF7C455001E1BD2 /* CppBridge.swift in Sources */,
-				968BCAE42AF7C455001E1BD2 /* BaseAdClient.swift in Sources */,
-				968BCADF2AF7C455001E1BD2 /* IUnityCallback.swift in Sources */,
-				968BCAD72AF7C455001E1BD2 /* Reward.swift in Sources */,
+				968796872AF7DE2300E5C654 /* ErrorClient.swift in Sources */,
+				968796842AF7DE2300E5C654 /* Handler.swift in Sources */,
+				9687967D2AF7DE2300E5C654 /* IUnityFullscreenCallback.swift in Sources */,
+				968796862AF7DE2300E5C654 /* PluginManager.swift in Sources */,
+				968796822AF7DE2300E5C654 /* IAdClient.swift in Sources */,
+				968796852AF7DE2300E5C654 /* IPlatformClient.swift in Sources */,
 				968BCAD12AF7C455001E1BD2 /* TransformedAdCallback.swift in Sources */,
-				968BCADE2AF7C455001E1BD2 /* IUnityRewardCallback.swift in Sources */,
-				968BCAD22AF7C455001E1BD2 /* Logger.swift in Sources */,
+				968796832AF7DE2300E5C654 /* BaseBannerClient.swift in Sources */,
+				9687967C2AF7DE2300E5C654 /* IUnityCallback.swift in Sources */,
+				9687967F2AF7DE2300E5C654 /* UnityHandler.swift in Sources */,
+				9687968E2AF7DE2300E5C654 /* AdValue.swift in Sources */,
+				9687967A2AF7DE2300E5C654 /* IUnityInterstitialCallback.swift in Sources */,
+				968796902AF7DE2300E5C654 /* Extensions.swift in Sources */,
+				9687967B2AF7DE2300E5C654 /* IUnityRewardCallback.swift in Sources */,
 				968BCAD02AF7C455001E1BD2 /* CBridge.cpp in Sources */,
-				968BCAC92AF7C455001E1BD2 /* PluginManager.swift in Sources */,
-				968BCAD82AF7C455001E1BD2 /* IJson.swift in Sources */,
 				968BCACD2AF7C455001E1BD2 /* OCBridge.mm in Sources */,
-				968BCAE52AF7C455001E1BD2 /* IAdClient.swift in Sources */,
-				968BCAD42AF7C455001E1BD2 /* ErrorClient.swift in Sources */,
-				968BCAE12AF7C455001E1BD2 /* IUnityBannerCallback.swift in Sources */,
-				968BCAD52AF7C455001E1BD2 /* AdPosition.swift in Sources */,
-				968BCAE22AF7C455001E1BD2 /* UnityHandler.swift in Sources */,
-				968BCAD62AF7C455001E1BD2 /* AdFormat.swift in Sources */,
-				968BCAE32AF7C455001E1BD2 /* BaseFullscreenClient.swift in Sources */,
-				968BCAD32AF7C455001E1BD2 /* Extensions.swift in Sources */,
-				968BCADD2AF7C455001E1BD2 /* IUnityInterstitialCallback.swift in Sources */,
-				968BCADC2AF7C455001E1BD2 /* Handler.swift in Sources */,
 				968BCACC2AF7C455001E1BD2 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,238 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -cxx-interoperability-mode=default -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UMPCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import UMPCore
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AdFormat : Swift.Int {
+  case banner
+  case interstitial
+  case reward
+  public func name() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum AdPosition : Swift.Int {
+  case top
+  case center
+  case bottom
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct AdValue {
+  public let value: Swift.Int
+  public let currencyCode: Swift.String
+  public init(value: Swift.Int, currencyCode: Swift.String? = nil)
+}
+@objc @_hasMissingDesignatedInitializers open class BaseAdClient : ObjectiveC.NSObject, UMPCore.IAdClient {
+  final public let adFormat: UMPCore.AdFormat
+  final public let platform: UMPCore.Platform
+  public var extraParameters: [Swift.String : [Swift.String : Swift.String?]] {
+    get
+  }
+  public var isDestroyed: Swift.Bool {
+    get
+  }
+  public var unityHandler: UMPCore.UnityHandler {
+    get
+  }
+  final public func setExtraParameter(unitId: Swift.String, key: Swift.String, value: Swift.String?)
+  final public func isReady(unitId: Swift.String) -> Swift.Bool
+  final public func show(unitId: Swift.String)
+  final public func destroy(unitId: Swift.String)
+  open func isReadyImpl(unitId: Swift.String) -> Swift.Bool
+  open func showImpl(unitId: Swift.String)
+  open func destroyImpl(unitId: Swift.String)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers open class BaseBannerClient : UMPCore.BaseAdClient, UMPCore.IBannerClient {
+  public init(platform: UMPCore.Platform, callback: any UMPCore.IUnityBannerCallback)
+  final public func load(unitId: Swift.String, width: Swift.Int, height: Swift.Int, position: Swift.Int)
+  final public func hide(unitId: Swift.String)
+  open func loadImpl(unitId: Swift.String, width: Swift.Int, height: Swift.Int, position: Swift.Int)
+  open func hideImpl(unitId: Swift.String)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers open class BaseFullscreenClient : UMPCore.BaseAdClient, UMPCore.IFullScreenClient {
+  public init(adFormat: UMPCore.AdFormat, platform: UMPCore.Platform, callback: any UMPCore.IUnityFullscreenCallback)
+  final public func load(unitId: Swift.String)
+  open func loadImpl(unitId: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CppBridge {
+  public static func setPluginExtraParameter(groupId: Swift.String, key: Swift.String, value: Swift.UnsafePointer<Swift.Int8>?)
+  public static func getPluginExtraParameter(groupId: Swift.String, key: Swift.String) -> Swift.UnsafeMutablePointer<Swift.Int8>?
+  public static func setExtraParameter(handle: Swift.Int, unitId: Swift.String, key: Swift.String, value: Swift.String)
+  public static func load(handle: Swift.Int, unitId: Swift.String)
+  public static func isReady(handle: Swift.Int, unitId: Swift.String) -> Swift.Bool
+  public static func show(handle: Swift.Int, unitId: Swift.String)
+  public static func destroy(handle: Swift.Int, unitId: Swift.String)
+  public static func load(handle: Swift.Int, unitId: Swift.String, width: Swift.Int, height: Swift.Int, position: Swift.Int)
+  public static func hide(handle: Swift.Int, unitId: Swift.String)
+  public static func getCharPointer(from optionalString: Swift.String?) -> Swift.UnsafeMutablePointer<Swift.Int8>?
+  @objc deinit
+}
+public struct ErrorClient : UMPCore.IEncodableJson {
+  public let code: Swift.Int
+  public let message: Swift.String
+  public init(code: Swift.Int, message: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public typealias SwiftCallback<T> = (_ result: T) -> Swift.Void
+extension Swift.String {
+  public func shortFunctionName() -> Swift.String
+}
+public protocol IAdClient {
+  var adFormat: UMPCore.AdFormat { get }
+  var platform: UMPCore.Platform { get }
+  func setExtraParameter(unitId: Swift.String, key: Swift.String, value: Swift.String?)
+  func isReady(unitId: Swift.String) -> Swift.Bool
+  func show(unitId: Swift.String)
+  func destroy(unitId: Swift.String)
+}
+public protocol IBannerClient : UMPCore.IAdClient {
+  func load(unitId: Swift.String, width: Swift.Int, height: Swift.Int, position: Swift.Int)
+  func hide(unitId: Swift.String)
+}
+public protocol IFullScreenClient : UMPCore.IAdClient {
+  func load(unitId: Swift.String)
+}
+public protocol IJson {
+  func toJson() -> Swift.String
+}
+public protocol IEncodableJson : Swift.Encodable, UMPCore.IJson {
+}
+extension UMPCore.IEncodableJson {
+  public func toJson() -> Swift.String
+}
+public protocol IMediationAd : UMPCore.IJson {
+}
+public protocol IRevenueAd : UMPCore.IMediationAd {
+  var revenue: Swift.Double { get }
+}
+open class MediationAd : UMPCore.IMediationAd {
+  public init()
+  public func put(key: Swift.String, value: Any?)
+  public func merge(dictionary: [Swift.String : Any?])
+  public func toJson() -> Swift.String
+  public static func create() -> any UMPCore.IMediationAd
+  @objc deinit
+}
+open class RevenueAd : UMPCore.MediationAd, UMPCore.IRevenueAd {
+  final public let revenue: Swift.Double
+  required public init(revenue: Swift.Double)
+  @objc deinit
+}
+public protocol IPlatformClient {
+  static var platform: UMPCore.Platform { get }
+  static func initialize(appKey: Swift.String?, callback: UMPCore.InitializeCallback)
+  static func createClient(adFormat: UMPCore.AdFormat, callback: any UMPCore.IUnityCallback) -> (any UMPCore.IAdClient)?
+  static func showDebugger()
+}
+public protocol IUnityBannerCallback : UMPCore.IUnityAdClickListener, UMPCore.IUnityAdImpressionCallback, UMPCore.IUnityAdLoadCallback, UMPCore.IUnityAdPaidListener, UMPCore.IUnityCallback {
+  func onBannerDetailClosed(unitId: Swift.String)
+  func onBannerDetailOpened(unitId: Swift.String)
+}
+public protocol IUnityCallback {
+}
+public protocol IUnityAdLoadCallback {
+  func onAdLoaded(unitId: Swift.String, mediationAd: any UMPCore.IMediationAd)
+  func onAdFailedToLoad(unitId: Swift.String, errorClient: UMPCore.ErrorClient)
+}
+public protocol IUnityAdFailedToShowListener {
+  func onAdFailedToShow(unitId: Swift.String, errorClient: UMPCore.ErrorClient)
+}
+public protocol IUnityAdImpressionCallback {
+  func onAdImpression(unitId: Swift.String)
+}
+public protocol IUnityAdPaidListener {
+  func onAdPaid(unitId: Swift.String, adValue: UMPCore.AdValue, extraParams: [Swift.String : Any?]?)
+}
+public protocol IUnityAdClickListener {
+  func onAdClicked(unitId: Swift.String)
+}
+public protocol IUnityAdCloseListener {
+  func onAdClosed(unitId: Swift.String)
+}
+public protocol IUnityFullscreenCallback : UMPCore.IUnityAdClickListener, UMPCore.IUnityAdCloseListener, UMPCore.IUnityAdFailedToShowListener, UMPCore.IUnityAdImpressionCallback, UMPCore.IUnityAdLoadCallback, UMPCore.IUnityAdPaidListener, UMPCore.IUnityCallback {
+}
+public protocol IUnityInterstitialCallback : UMPCore.IUnityFullscreenCallback {
+}
+public protocol IUnityRewardCallback : UMPCore.IUnityFullscreenCallback {
+  func onUserEarnedReward(unitId: Swift.String, reward: UMPCore.Reward)
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  public static func d(message: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class OCBridge : ObjectiveC.NSObject {
+  public static var platformHandlePool: [Swift.Int : (any UMPCore.IPlatformClient.Type)?] {
+    get
+  }
+  public static var clientHandlePool: [Swift.Int : Swift.AnyObject?] {
+    get
+  }
+  @objc public static func initializePlugin(testMode: Swift.Bool, callback: UMPCore.InitializeCallback)
+  @objc public static func initializePlatform(platform: Swift.Int, className: Swift.String, appKey: Swift.String?, callback: UMPCore.InitializeCallback)
+  @objc public static func createClient(platform: Swift.Int, adFormat: Swift.Int, callback: UMPCore.UnionedAdCallbacks) -> Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct Platform {
+  public let id: Swift.Int
+  public var name: Swift.String
+  public init(id: Swift.Int, name: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class PluginManager {
+  public static let Tag: Swift.String
+  public static var testMode: Swift.Bool {
+    get
+  }
+  public static func initialize(testMode: Swift.Bool, callback: UMPCore.InitializeCallback)
+  public static func setExtraParameter(groupId: Swift.String, key: Swift.String, value: Swift.String?)
+  public static func getExtraParameter(groupId: Swift.String, key: Swift.String) -> Swift.String?
+  @objc deinit
+}
+public struct Reward {
+  public let mount: Swift.Double
+  public let type: Swift.String?
+  public init(mount: Swift.Double, type: Swift.String? = nil)
+}
+@_hasMissingDesignatedInitializers public class UnityHandler : UMPCore.IBannerClient, UMPCore.IFullScreenClient, UMPCore.IUnityBannerCallback, UMPCore.IUnityInterstitialCallback, UMPCore.IUnityRewardCallback {
+  final public let adFormat: UMPCore.AdFormat
+  final public let platform: UMPCore.Platform
+  public func setExtraParameter(unitId: Swift.String, key: Swift.String, value: Swift.String?)
+  public func load(unitId: Swift.String, width: Swift.Int, height: Swift.Int, position: Swift.Int)
+  public func load(unitId: Swift.String)
+  public func isReady(unitId: Swift.String) -> Swift.Bool
+  public func show(unitId: Swift.String)
+  public func hide(unitId: Swift.String)
+  public func destroy(unitId: Swift.String)
+  public func onAdLoaded(unitId: Swift.String, mediationAd: any UMPCore.IMediationAd)
+  public func onAdFailedToLoad(unitId: Swift.String, errorClient: UMPCore.ErrorClient)
+  public func onAdFailedToShow(unitId: Swift.String, errorClient: UMPCore.ErrorClient)
+  public func onAdImpression(unitId: Swift.String)
+  public func onAdPaid(unitId: Swift.String, adValue: UMPCore.AdValue, extraParams: [Swift.String : Any?]?)
+  public func onAdClicked(unitId: Swift.String)
+  public func onAdClosed(unitId: Swift.String)
+  public func onUserEarnedReward(unitId: Swift.String, reward: UMPCore.Reward)
+  public func onBannerDetailOpened(unitId: Swift.String)
+  public func onBannerDetailClosed(unitId: Swift.String)
+  @objc deinit
+}
+extension UMPCore.AdFormat : Swift.Equatable {}
+extension UMPCore.AdFormat : Swift.Hashable {}
+extension UMPCore.AdFormat : Swift.RawRepresentable {}
+extension UMPCore.AdPosition : Swift.Equatable {}
+extension UMPCore.AdPosition : Swift.Hashable {}
+extension UMPCore.AdPosition : Swift.RawRepresentable {}

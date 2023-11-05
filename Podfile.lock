@@ -1,16 +1,22 @@
 PODS:
-  - UMPTest (0.0.1-alpha.1)
+  - UMPApplovin (0.0.1-alpha.1):
+    - UMPCore
+  - UMPCore (0.0.1-alpha.1)
 
 DEPENDENCIES:
-  - UMPTest (from `UMPTest`)
+  - UMPApplovin (from `UMPApplovin`)
+  - UMPCore (from `./UMPCore/UMPCore.podspec`)
 
 EXTERNAL SOURCES:
-  UMPTest:
-    :path: UMPTest
+  UMPApplovin:
+    :path: UMPApplovin
+  UMPCore:
+    :path: "./UMPCore/UMPCore.podspec"
 
 SPEC CHECKSUMS:
-  UMPTest: 917ea4e43d429d31993124ca3fc9cb56a3061ed3
+  UMPApplovin: 118cbea14032402ae0a1b114f07addeaa4e0b543
+  UMPCore: 6ff615d8cac861db87f1f384672a33fed605cb37
 
-PODFILE CHECKSUM: 8442fb3dba01ddc030d120480255b90565352266
+PODFILE CHECKSUM: a1f04065aaabea1491d7471cdee51d825a09ebb3
 
 COCOAPODS: 1.14.2
