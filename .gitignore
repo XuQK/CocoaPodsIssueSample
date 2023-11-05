@@ -98,3 +98,5 @@ iOSInjectionProject/
 .DS_Store
 *_XCFramework/
 
+# 忽略用户状态记录
+**/UserInterfaceState.xcuserstate
